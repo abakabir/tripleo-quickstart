@@ -51,7 +51,8 @@ ctlplane_masquerade: >-
 deploy_supplemental_node: true
 supplemental_user: stack
 supplemental_node_ip: "{{ freeipa_internal_ip }}"
-supplemental_image_url: https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2
+#supplemental_image_url: https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2
+supplemental_image_url: https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-GenericCloud-8.1.1911-20200113.3.x86_64.qcow2 
 
 # We don't need introspection in a virtual environment (because we are
 # creating all the "hardware" we really know the necessary information).
